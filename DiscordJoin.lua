@@ -1,6 +1,6 @@
 --// This joins discord NOT logs you.
 local http_request = http_request or request or syn.request;
-local a = {
+local Invite = {
 	['cmd'] = 'INVITE_BROWSER',
 	['args'] = {
 	["code"] = 'hoodsense'
@@ -15,5 +15,5 @@ http_request({
 		['Content-Type'] = 'application/json',
 		['Origin'] = 'https://discord.com'
 	},
-	Body = game:GetService('HttpService'):JSONEncode(a)
+	Body = game:GetService('HttpService'):JSONEncode(Invite)
 })
