@@ -5,4 +5,3 @@ local function Blacklist(UserID, Reason)
 	end
 end
 Blacklist(3655599610, "No reason provided.")
-Blacaklist(12945053, "Too many attempts.")
