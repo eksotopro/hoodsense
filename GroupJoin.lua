@@ -15,6 +15,6 @@ pcall(function()
         })
     Sound.Ended:Wait()
     Sound:Destroy()
-    setclipboard('https://www.roblox.com/groups/14447451/hoodsense')
+    setclipboard('https://www.roblox.com/groups/14447451/ZappedW')
     end
 end)
