@@ -5,7 +5,6 @@ CrownId = {
 DiamondId = {
 	2578531818,
 	2729947701,
-	3545666333,
 }
 
 CheckmarkId = {
