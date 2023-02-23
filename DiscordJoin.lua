@@ -17,3 +17,8 @@ http_request({
 	},
 	Body = game:GetService('HttpService'):JSONEncode(Invite)
 })
+
+pcall(function()
+	repeat wait() until is_zapped_loaded
+	Notify("Few functions may noy work, update soon")
+end)
