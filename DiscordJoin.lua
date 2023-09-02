@@ -20,5 +20,6 @@ http_request({
 
 pcall(function()
 	repeat wait() until is_zapped_loaded
-	Notify("Few functions may noy work, update soon")
+	Notify("NEW SCRIPT SOON!!!")
+	Notify("JOIN OUR DISCORD FOR MORE INFO!")
 end)
